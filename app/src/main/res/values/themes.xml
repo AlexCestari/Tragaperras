@@ -1,0 +1,56 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Tema de recreativa: siempre oscuro, colores neón y letra monoespaciada. -->
+    <style name="Base.Theme.Tragaperras" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/arcade_amarillo</item>
+        <item name="colorOnPrimary">@color/arcade_negro</item>
+        <item name="colorPrimaryContainer">@color/arcade_morado</item>
+        <item name="colorOnPrimaryContainer">@color/arcade_amarillo</item>
+        <item name="colorSecondary">@color/arcade_cian</item>
+        <item name="colorOnSecondary">@color/arcade_negro</item>
+        <item name="android:colorBackground">@color/arcade_negro</item>
+        <item name="colorSurface">@color/arcade_negro</item>
+        <item name="colorOnSurface">@color/arcade_blanco</item>
+        <item name="colorOnSurfaceVariant">@color/arcade_cian</item>
+        <item name="colorSurfaceContainerLow">@color/arcade_panel</item>
+        <item name="colorSurfaceContainer">@color/arcade_panel</item>
+        <item name="colorSurfaceContainerHigh">@color/arcade_panel</item>
+        <item name="colorOutline">@color/arcade_cian</item>
+
+        <item name="android:textViewStyle">@style/Retro.Texto</item>
+        <item name="materialButtonStyle">@style/Retro.Boton</item>
+        <item name="materialButtonOutlinedStyle">@style/Retro.Boton.Contorno</item>
+        <item name="toolbarStyle">@style/Retro.Toolbar</item>
+    </style>
+
+    <style name="Theme.Tragaperras" parent="Base.Theme.Tragaperras" />
+
+    <style name="Retro.Texto" parent="Widget.MaterialComponents.TextView">
+        <item name="android:fontFamily">monospace</item>
+        <item name="fontFamily">monospace</item>
+    </style>
+
+    <style name="Retro.Boton" parent="Widget.Material3.Button">
+        <item name="android:fontFamily">monospace</item>
+        <item name="fontFamily">monospace</item>
+        <item name="android:textStyle">bold</item>
+        <item name="cornerRadius">4dp</item>
+    </style>
+
+    <style name="Retro.Boton.Contorno" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:fontFamily">monospace</item>
+        <item name="fontFamily">monospace</item>
+        <item name="android:textStyle">bold</item>
+        <item name="cornerRadius">4dp</item>
+        <item name="strokeColor">@color/arcade_cian</item>
+    </style>
+
+    <style name="Retro.Toolbar" parent="Widget.Material3.Toolbar">
+        <item name="titleTextAppearance">@style/Retro.Titulo</item>
+    </style>
+
+    <style name="Retro.Titulo" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:fontFamily">monospace</item>
+        <item name="fontFamily">monospace</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

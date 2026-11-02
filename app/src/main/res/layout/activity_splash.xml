@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorPrimaryContainer"
+    android:fitsSystemWindows="true"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView android:layout_width="64dp" android:layout_height="64dp"
+            android:importantForAccessibility="no" android:src="@drawable/simbolo_siete" />
+        <ImageView android:layout_width="64dp" android:layout_height="64dp"
+            android:importantForAccessibility="no" android:src="@drawable/simbolo_siete" />
+        <ImageView android:layout_width="64dp" android:layout_height="64dp"
+            android:importantForAccessibility="no" android:src="@drawable/simbolo_siete" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/app_name"
+        android:textAppearance="?attr/textAppearanceDisplaySmall"
+        android:textColor="?attr/colorOnPrimaryContainer" />
+
+    <Button
+        android:id="@+id/boton_insert_coin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:paddingHorizontal="32dp"
+        android:text="@string/splash_subtitulo" />
+</LinearLayout>

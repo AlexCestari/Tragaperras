@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/menu_inicio" android:title="@string/titulo_inicio" app:showAsAction="never" />
+    <item android:id="@+id/menu_jugar" android:title="@string/titulo_jugar" app:showAsAction="never" />
+    <item android:id="@+id/menu_historial" android:title="@string/titulo_historial" app:showAsAction="never" />
+    <item android:id="@+id/menu_reglas" android:title="@string/titulo_reglas" app:showAsAction="never" />
+</menu>

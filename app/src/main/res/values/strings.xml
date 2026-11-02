@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Tragaperras</string>
+    <string name="splash_subtitulo">INSERT COIN</string>
+
+    <string name="titulo_inicio">Inicio</string>
+    <string name="titulo_jugar">Jugar</string>
+    <string name="titulo_historial">Historial</string>
+    <string name="titulo_reglas">Reglas</string>
+
+    <string name="saldo">Saldo: %1$d monedas</string>
+    <string name="mejores_partidas">Mejores partidas</string>
+    <string name="sin_partidas">Aún no hay partidas. ¡Juega la primera!</string>
+    <string name="sin_historial">Aquí aparecerá el historial de partidas.</string>
+
+    <string name="apuesta">Apuesta</string>
+    <string name="apuesta_1">1</string>
+    <string name="apuesta_5">5</string>
+    <string name="apuesta_10">10</string>
+    <string name="boton_jugar">Jugar</string>
+    <string name="boton_girar">Girar</string>
+    <string name="boton_reiniciar">Empezar de nuevo</string>
+    <string name="resultado_inicial">Elige tu apuesta y pulsa Girar</string>
+    <string name="resultado_premio">¡Has ganado %1$d monedas!</string>
+    <string name="resultado_sin_premio">Sin premio. Pierdes %1$d monedas</string>
+    <string name="saldo_insuficiente">No tienes monedas suficientes para esa apuesta</string>
+    <string name="saldo_reiniciado">Saldo reiniciado a 100 monedas</string>
+    <string name="descripcion_rodillo">Rodillo</string>
+
+    <string name="reglas_texto">Empiezas con 100 monedas. Elige una apuesta de 1, 5 o 10 monedas y pulsa Girar.\n\n• Tres símbolos iguales: ganas la apuesta multiplicada según el símbolo.\n• Dos símbolos iguales: ganas el doble de la apuesta.\n• Ningún símbolo igual: pierdes la apuesta.\n\nSi te quedas sin monedas, puedes empezar de nuevo con 100.</string>
+    <string name="tabla_premios">Tabla de premios (tres iguales)</string>
+    <string name="premio_tres_iguales">x%1$d la apuesta</string>
+    <string name="item_detalle">Apuesta %1$d · Saldo %2$d</string>
+    <string name="item_premio">+%1$d</string>
+    <string name="item_sin_premio">−%1$d</string>
+    <string name="error_bd">No se han podido cargar o guardar los datos</string>
+</resources>
